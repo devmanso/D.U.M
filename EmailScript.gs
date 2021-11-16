@@ -54,7 +54,10 @@ function removeAllTriggers() {
  * Wrapper for the purge function
  */
 function purgeMore() {
+  //an eternal loop that will keep running purge()
+  while(true){
   purge()
+  }
 }
 
 
